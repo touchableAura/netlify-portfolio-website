@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan Cameron</title>
+    
+    <link rel="stylesheet" href="../css/programming.css">
+    <link rel="icon" type="image/x-icon" href="../logos/floppydisk.png">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./logos/floppydisk.png">
+<!-- <link rel="icon" type="image/png" sizes="16x16" href="/floppydisk.png"> -->
+<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+    <div class="container">
+
+    <div class="header">  
+        <div class="sitename">
+            <a class="nowrap" href="./index.html"> <h1 id="sitename">EVAN <span class="hidden"> CAMERON</span></h1></a>
+        </div>
+
+        <div class="topnav">
+            <nav class="nowrap">
+                <!-- <a href="./home.html">Home</a> -->
+                <a class="nowrap" href="./projects.html">Projects</a>
+                <a href="../media/2023 Resume & CV.pdf" target="_blank">Resume</a>
+                <a href="https://evancameron.net" target="_blank">Blog</a>     
+            </nav>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="post" id="post1">
+            <div class="post-media">
+                <h3>Chat App</h3>
+                <p>Socket.IO, Express, JavaScript</p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ruPRnhqvDtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="post-info">
+                <p>This chat app uses <a href="https://socket.io/" target="_blank"><span class="external-link">Socket.IO</span></a> - a library that enables event based communication between a client and server. I use Node.js to create an HTTP server and the Express app listens for this on http://localhost:3000. Once the server is running, the HTML (which stores the client side scripts) can be accessed on this port (3000). Any browser that goes to this port can connect to the chat server and send messages back and forth. The css is influenced by 'night-mode' colors to encourage comfortable use in low light. Check it out on <a href="https://github.com/evanStudent/Socket.io-ChatApp" target="_blank" > <span class="external-link">GitHub</span></a>.</p>
+            </div>
+        </div>
+
+        <div class="post" id="post2">
+            <div class="post-media">
+                <h3>Nobel Laureate App</h3>
+                <p>React Native, Nobel Laureate API</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IrszDQhLu2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="post-info">
+                <p>This application uses React Native to build a cross-platform app for exploring the <a href="https://www.nobelprize.org/about/developer-zone-2/" target="_blank"><span class="external-link"> Nobel Laureate API</span></a>. Users can navigate two stacks: 1 for recipients (organized alphabetically) and 1 for awards (organized by year). Each screen uses the useEffect hook to fetch data from the API and populate the cards with JSX. Check it out on <a href="https://github.com/evanStudent/ReactNative-Nobel-Laureate-App" target="_blank" ><span class="external-link">GitHub</span></a>.</p>
+            </div>
+
+        </div>
+
+        <div class="post" id="post3">
+            <div class="post-media">
+                <h3>Farmer Simulator Game</h3>
+                <p>Unity, C#</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Unnt6tSMVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="post-info">
+                <p> This Farmer Simulation Game is an exercize in C# and programming a player controller to move through the game area and fire projectiles based on keyboard input. It also creates an array of farm animals that are sorted at random and sent running across the screen. The objective is to feed the animals by throwing them a banana before they run off-screen. Check out the code on <a href="https://github.com/touchableAura/Unity-FarmerSim" target="_blank" > <span class="external-link">GitHub</span></a>.</p>
+            </div>
+        </div>        
+    </div>
+
+    <div class="footer">
+        <nav class="bottom-nav">
+            <a href="https://www.linkedin.com/in/evancameronwork/" target=”_blank”>LinkedIn</a>
+            <a href="https://github.com/touchableAura" target=”_blank”>Github</a>
+        </nav>
+    </div>
+
+</div>
+</body>
+</html>
